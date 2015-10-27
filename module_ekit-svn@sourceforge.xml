@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_ekit-svn@sourceforge" default="compile.module.ekit-svn@sourceforge">
+  <dirname property="module.ekit-svn@sourceforge.basedir" file="${ant.file.module_ekit-svn@sourceforge}"/>
+  
+  <property name="module.jdk.home.ekit-svn@sourceforge" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.ekit-svn@sourceforge" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.ekit-svn@sourceforge" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.ekit-svn@sourceforge" value="-encoding UTF-8 -source 8 ${compiler.args}"/>
+  
+  <property name="ekit-svn@sourceforge.output.dir" value="${module.ekit-svn@sourceforge.basedir}/bin"/>
+  <property name="ekit-svn@sourceforge.testoutput.dir" value="${module.ekit-svn@sourceforge.basedir}/bin"/>
+  
+  <path id="ekit-svn@sourceforge.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="ekit-svn@sourceforge.module.production.classpath">
+    <path refid="${module.jdk.classpath.ekit-svn@sourceforge}"/>
+  </path>
+  
+  <path id="ekit-svn@sourceforge.runtime.production.module.classpath">
+    <pathelement location="${ekit-svn@sourceforge.output.dir}"/>
+  </path>
+  
+  <path id="ekit-svn@sourceforge.module.classpath">
+    <pathelement location="${ekit-svn@sourceforge.output.dir}"/>
+    <path refid="${module.jdk.classpath.ekit-svn@sourceforge}"/>
+  </path>
+  
+  <path id="ekit-svn@sourceforge.runtime.module.classpath">
+    <pathelement location="${ekit-svn@sourceforge.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.ekit-svn@sourceforge">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.ekit-svn@sourceforge">
+    <patternset refid="excluded.from.module.ekit-svn@sourceforge"/>
+  </patternset>
+  
+  <path id="ekit-svn@sourceforge.module.sourcepath">
+    <dirset dir="${module.ekit-svn@sourceforge.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.ekit-svn@sourceforge" depends="compile.module.ekit-svn@sourceforge.production,compile.module.ekit-svn@sourceforge.tests" description="Compile module ekit-svn@sourceforge"/>
+  
+  <target name="compile.module.ekit-svn@sourceforge.production" depends="register.custom.compilers" description="Compile module ekit-svn@sourceforge; production classes">
+    <mkdir dir="${ekit-svn@sourceforge.output.dir}"/>
+    <javac2 destdir="${ekit-svn@sourceforge.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.ekit-svn@sourceforge}/javac">
+      <compilerarg line="${compiler.args.ekit-svn@sourceforge}"/>
+      <bootclasspath refid="ekit-svn@sourceforge.module.bootclasspath"/>
+      <classpath refid="ekit-svn@sourceforge.module.production.classpath"/>
+      <src refid="ekit-svn@sourceforge.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.ekit-svn@sourceforge"/>
+    </javac2>
+    
+    <copy todir="${ekit-svn@sourceforge.output.dir}">
+      <fileset dir="${module.ekit-svn@sourceforge.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.ekit-svn@sourceforge.tests" depends="register.custom.compilers,compile.module.ekit-svn@sourceforge.production" description="compile module ekit-svn@sourceforge; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.ekit-svn@sourceforge" description="cleanup module">
+    <delete dir="${ekit-svn@sourceforge.output.dir}"/>
+    <delete dir="${ekit-svn@sourceforge.testoutput.dir}"/>
+  </target>
+</project>
