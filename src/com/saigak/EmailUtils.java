@@ -40,6 +40,7 @@ public class EmailUtils {
         MimeMultipart content = new MimeMultipart("related");
 
         Document document = Jsoup.parse(html);
+//        document.charset();
         Elements img = document.select("img");
 
         Map<String, File> map = new TreeMap<>();
@@ -52,7 +53,7 @@ public class EmailUtils {
         }
 
         MimeBodyPart textPart = new MimeBodyPart();
-        textPart.setText(document.html(), "US-ASCII", "html");
+        textPart.setText(document.html(), "UTF-8", "html");
         content.addBodyPart(textPart);
 
         for (Map.Entry<String, File> entry : map.entrySet()) {
@@ -64,6 +65,22 @@ public class EmailUtils {
         }
 
         return content;
+
+    }
+
+
+    public Session buildMAndrill() {
+
+        Properties mailProperties = new Properties();
+        mailProperties.setProperty("mail.transport.protocol", "smtp");
+        mailProperties.setProperty("mail.smtp.host", "smtp.mandrillapp.com");
+        mailProperties.setProperty("mail.smtp.port", String.valueOf(587));
+        mailProperties.setProperty("mail.smtp.user", "khrupalik@gmail.com");
+        final Session session = Session.getInstance(mailProperties, null);
+        session.setPasswordAuthentication(new URLName("smtp", "smtp.mandrillapp.com", -1, null, "khrupalik@gmail.com", null),
+                new PasswordAuthentication("khrupalik@gmail.com", "6MoQigiQVKsJr1wr10jReg"));
+        session.setDebug(true);
+        return session;
 
     }
 

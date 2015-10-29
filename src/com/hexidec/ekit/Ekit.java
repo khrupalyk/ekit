@@ -21,6 +21,8 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 package com.hexidec.ekit;
 
+import com.saigak.FileUtilizator;
+
 import java.awt.BorderLayout;
 import java.awt.Container;
 import java.awt.GridBagConstraints;
@@ -84,6 +86,13 @@ public class Ekit extends JFrame implements WindowListener
 			ekitCore = new EkitCore( this, sDocument, sStyleSheet, sRawDocument, null, urlStyleSheet, includeToolBar, showViewSource, showMenuIcons, editModeExclusive, sLanguage, sCountry, base64, debugMode, false, multiBar, (multiBar ? EkitCore.TOOLBAR_DEFAULT_MULTI : EkitCore.TOOLBAR_DEFAULT_SINGLE));
 //		}
 
+		this.addWindowListener(new java.awt.event.WindowAdapter() {
+			public void windowClosing(WindowEvent winEvt) {
+				FileUtilizator.clean();
+				System.exit(0);
+			}
+		});
+		setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		ekitCore.setFrame(this);
 
 

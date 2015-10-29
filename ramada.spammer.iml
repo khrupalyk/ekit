@@ -43,5 +43,10 @@
     <orderEntry type="library" exported="" name="mail-1.4.5" level="project" />
     <orderEntry type="library" name="stax-api-1.0.1" level="project" />
     <orderEntry type="library" name="poi-3.13-20150929" level="project" />
+    <orderEntry type="library" name="java" level="project" />
+    <orderEntry type="library" name="common-image-3.0.2" level="project" />
+    <orderEntry type="library" name="batik-transcoder-1.6.jar" level="project" />
+    <orderEntry type="library" name="batik-transcoder-1.7" level="project" />
+    <orderEntry type="library" name="jmagick-6.6.9" level="application" />
   </component>
 </module>

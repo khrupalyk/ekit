@@ -1,0 +1,57 @@
+<component name="libraryTable">
+  <library name="java">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/common/common-image/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/common/common-image/src/test/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/common/common-io/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/common/common-io/src/test/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/common/common-lang/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/common/common-lang/src/test/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-batik/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-batik/src/test/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-bmp/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-bmp/src/test/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-clippath/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-clippath/src/test/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-core/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-core/src/test/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-hdr/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-hdr/src/test/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-icns/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-icns/src/test/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-iff/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-iff/src/test/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-jpeg/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-jpeg/src/test/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-metadata/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-metadata/src/test/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-pcx/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-pcx/src/test/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-pict/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-pict/src/test/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-pnm/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-pnm/src/test/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-psd/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-psd/src/test/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-reference/src/test/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-sgi/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-sgi/src/test/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-tga/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-tga/src/test/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-thumbsdb/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-thumbsdb/src/test/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-tiff/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/imageio/imageio-tiff/src/test/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/sandbox/sandbox-common/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/sandbox/sandbox-common/src/test/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/sandbox/sandbox-imageio/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/sandbox/sandbox-imageio/src/test/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/sandbox/sandbox-servlet/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/sandbox/sandbox-swing/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/servlet/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../../Завантаження/haraldk-TwelveMonkeys-twelvemonkeys-3.1.0-91-g062413d.zip!/haraldk-TwelveMonkeys-062413d/servlet/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

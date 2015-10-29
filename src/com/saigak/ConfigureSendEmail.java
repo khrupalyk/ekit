@@ -24,6 +24,7 @@ public class ConfigureSendEmail extends JDialog {
     private JButton cancel;
     private JTextField companyName;
     private JTextField subject;
+    private JTextField showEmail;
     private JFileChooser fileChooser;
     private JButton openFile;
     private JPanel panel;
@@ -101,10 +102,11 @@ public class ConfigureSendEmail extends JDialog {
 //                System.out.println("Send email" + html);
                 try {
                     MimeMultipart mimeMultipart = email.buildMultipart(html);
-                    SMTPMessage m = new SMTPMessage(email.buildGoogleSession());
-                    m.setFrom(new InternetAddress("mail@companyxyz.com", companyName.getText()));
+                    SMTPMessage m = new SMTPMessage(email.buildMAndrill());
+                    m.setFrom(new InternetAddress("support@ramadalviv.com", companyName.getText()));
                     m.setContent(mimeMultipart);
                     m.setSubject(subject.getText());
+//                    m.setHeader();
 //                            progressBar.setMaximum(600);
 
                     Runnable runnable = new Runnable() {
@@ -123,7 +125,7 @@ public class ConfigureSendEmail extends JDialog {
                                     progressBar.setValue(progressBar.getValue() + 1);
                                 }
                                 JOptionPane.showMessageDialog(panel, "All send completed!", "Information", JOptionPane.INFORMATION_MESSAGE);
-
+//                                FileUtilizator.clean();
                             } catch (MessagingException e1) {
                                 e1.printStackTrace();
                                 JOptionPane.showMessageDialog(panel, "Error when send email..", "Error", JOptionPane.ERROR_MESSAGE);
@@ -199,7 +201,6 @@ public class ConfigureSendEmail extends JDialog {
                         JOptionPane.showMessageDialog(panel, "Could not open file", "Error", JOptionPane.ERROR_MESSAGE);
                         e1.printStackTrace();
                     }
-                } else {
                 }
             }
         });

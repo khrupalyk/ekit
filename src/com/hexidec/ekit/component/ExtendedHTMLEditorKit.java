@@ -68,6 +68,7 @@ public class ExtendedHTMLEditorKit extends HTMLEditorKit
 	{
 		StyleSheet ss = new StyleSheet();
 		ss.addStyleSheet(styles);
+		ss.addRule(String.format("img {width: 400px; }"));
 		ExtendedHTMLDocument doc = new ExtendedHTMLDocument(ss);
 		doc.setParser(getParser());
 		doc.setAsynchronousLoadPriority(4);
